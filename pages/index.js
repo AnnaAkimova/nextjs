@@ -1,7 +1,9 @@
 import Head from 'next/head'
 import Image from 'next/image'
 import styles from '../styles/Home.module.css'
+import { useRouter } from 'next/router';
 
 export default function Home() {
-  window.location.replace("http://www.google.com");
+ const router = useRouter();
+  router.replace('https://www.google.com/')
 }
