@@ -18,7 +18,7 @@ export default function Home() {
           Welcome to <a href="https://nextjs.org">Next.js!</a>
         </h1>
 <button type="button" onClick={() => {
-    throw new Error("Sentry Frontend Error");
+    throw new Error("ERRRRRORRRRRRRRR AAAAAALLLLLLLAAAAAARRRRMMM");
 }}>
     Throw error
 </button>
