@@ -6,8 +6,7 @@ export default function Home() {
   return (
     <script>
 function myFunction() {
-  document.getElementById("demo").style.color = "red";
-}
+  document.getElementById("demo").style.color = "red";}
 </script>
     <div className={styles.container}>
       <Head>
