@@ -4,12 +4,11 @@ import styles from '../styles/Home.module.css'
 
 export default function Home() {
   return (
-    
     <script>
-          function myFunction() {
+function myFunction() {
   document.getElementById("demo").style.color = "red";
 }
-          </script>
+</script>
     <div className={styles.container}>
       <Head>
         <title>Create Next App</title>
