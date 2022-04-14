@@ -4,5 +4,5 @@ import styles from '../styles/Home.module.css'
 import Router from 'next/router'
 
 export default function Home() {
-  Router.replace('https://www.google.com/');
+  Router.replace('www.google.com');
 }
