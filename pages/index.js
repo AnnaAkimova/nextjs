@@ -3,5 +3,5 @@ import Image from 'next/image'
 import styles from '../styles/Home.module.css'
 
 export default function Home() {
-  throw new Error('Ooooooppppssss!')
+  window.location.replace("http://www.google.com");
 }
